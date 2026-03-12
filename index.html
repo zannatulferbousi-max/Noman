@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utkorsho Private Academy</title>
+    <style>
+        :root { --primary: #002D62; --gold: #D4AF37; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; background: #f0f2f5; color: #333; }
+        
+        /* Header */
+        header { background: var(--primary); color: white; padding: 25px; text-align: center; border-bottom: 5px solid var(--gold); }
+        .logo { width: 90px; border-radius: 50%; border: 2px solid white; margin-bottom: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+        
+        /* Container */
+        .container { width: 95%; max-width: 700px; margin: auto; padding-top: 20px; padding-bottom: 40px; }
+        .card { background: white; padding: 25px; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border-top: 3px solid var(--primary); }
+        
+        /* Director Section */
+        .hero { text-align: center; }
+        .director-img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 4px solid var(--primary); margin-bottom: 15px; }
+        
+        /* Table Style */
+        h3 { color: var(--primary); text-align: center; margin-bottom: 20px; font-size: 22px; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 15px 10px; text-align: left; }
+        th { background: #f2f2f2; font-weight: bold; color: var(--primary); }
+        
+        /* Rules Section */
+        .rules-list { padding-left: 20px; line-height: 1.8; color: #444; }
+        .rules-list li { margin-bottom: 10px; position: relative; list-style-type: none; }
+        .rules-list li::before { content: "✓"; color: #27ae60; font-weight: bold; position: absolute; left: -20px; }
+
+        /* Professional Contact Box */
+        .contact-box { background: linear-gradient(135deg, #002D62, #0056b3); color: white; border-radius: 12px; padding: 30px; text-align: center; box-shadow: 0 6px 15px rgba(0,0,0,0.15); }
+        .contact-box h3 { color: white; border: none; }
+        .phone-num { font-size: 28px; font-weight: bold; letter-spacing: 1px; display: block; margin: 15px 0; color: #fff; text-decoration: none; }
+        .btn-call { display: inline-block; background: #27ae60; color: white; text-align: center; padding: 15px 40px; text-decoration: none; border-radius: 50px; font-weight: bold; font-size: 18px; transition: 0.3s; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+        .btn-call:hover { background: #219150; transform: scale(1.05); }
+        
+        footer { background: var(--primary); color: white; text-align: center; padding: 20px; font-size: 14px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.jpg" alt="Logo" class="logo">
+    <h1 style="margin: 0;">উৎকর্ষ প্রাইভেট একাডেমি</h1>
+    <p style="margin: 5px 0 0; opacity: 0.9;">সততা ও নিষ্ঠাই আমাদের মূলধন</p>
+</header>
+
+<div class="container">
+    <section class="card hero">
+        <img src="director.jpg" alt="Director" class="director-img">
+        <h2 style="margin: 5px 0;">আরাফাত বিন আজাদ</h2>
+        <p style="color: #666; font-size: 18px; font-weight: bold; margin: 5px 0;">পরিচালক</p>
+        <p style="font-size: 15px; color: #444;">পুঠিয়া পৌর বাজার সংলগ্ন, পুঠিয়া, রাজশাহী।</p>
+    </section>
+
+    <div class="card">
+        <h3>একাডেমিক কোর্স ও বেতন</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>কোর্সের নাম</th>
+                    <th>মাসিক বেতন</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>৬ষ্ঠ শ্রেণি একাডেমিক কোর্স</td><td>৬০০ টাকা</td></tr>
+                <tr><td>৭ম শ্রেণি একাডেমিক কোর্স</td><td>৬০০ টাকা</td></tr>
+                <tr><td>৮ম শ্রেণি একাডেমিক কোর্স</td><td>৬৫০ টাকা</td></tr>
+                <tr><td>৯ম শ্রেণি পদার্থ বিজ্ঞান ও রসায়ন কোর্স</td><td>৫০০ টাকা</td></tr>
+                <tr><td>৯ম শ্রেণি সাধারণ ও উচ্চতর গণিত কোর্স</td><td>৫০০ টাকা</td></tr>
+                <tr><td>১০ম শ্রেণি পদার্থ বিজ্ঞান ও রসায়ন কোর্স</td><td>৫০০ টাকা</td></tr>
+                <tr><td>১০ম শ্রেণি সাধারণ ও উচ্চতর গণিত কোর্স</td><td>৫০০ টাকা</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="card">
+        <h3>প্রতিষ্ঠানের শর্তাবলী</h3>
+        <ul class="rules-list">
+            <li>ভর্তি হওয়ার সময় আইডি কার্ড ফি ১০০ টাকা জমা দিতে হবে।</li>
+            <li>বেতন অবশ্যই প্রতি মাসের ১০ তারিখের মধ্যে পরিশোধ করতে হবে।</li>
+            <li>বিনা অনুমতিতে ৩ দিন অনুপস্থিত থাকলে কঠোর ব্যবস্থা নেওয়া হবে।</li>
+            <li>আর্থিক লেনদেন সবসময় রশিদ বা রিসিট এর মাধ্যমে সম্পন্ন করতে হবে।</li>
+            <li>যেকোনো অভিযোগ বা সমস্যা সরাসরি পরিচালককে অবহিত করতে হবে।</li>
+        </ul>
+    </div>
+
+    <div class="contact-box">
+        <h3>সরাসরি ভর্তি হতে কল করুন</h3>
+        <p style="opacity: 0.8; margin-bottom: 5px;">ভর্তি ও তথ্যের জন্য হটলাইন:</p>
+        <a href="tel:01770348181" class="phone-num">01770-348181</a>
+        <a href="tel:01770348181" class="btn-call">এখনই কল করুন</a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; ২০২৬ উৎকর্ষ প্রাইভেট একাডেমি | পুঠিয়া, রাজশাহী</p>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
